@@ -37,6 +37,6 @@ public class DeleteController {
 	    userService.delete(login.getUsername());
 
 	    return new ModelAndView("deleteresult", "username", login.getUsername());
-	    // page to b diplyed, key, value
+	    // name of the page to be diplayed, key, value
 	  }
 }
